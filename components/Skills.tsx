@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Container, Typography, Grid, Box, Paper, LinearProgress, useTheme, alpha } from '@mui/material';
+import { Container, Typography, Grid, Box, Paper, useTheme, alpha } from '@mui/material';
 import { SKILLS } from '../constants';
 
 export const Skills: React.FC = () => {
@@ -37,20 +37,12 @@ export const Skills: React.FC = () => {
                       '&:hover': { borderColor: theme.palette.primary.main }
                     }}
                   >
-                    <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 1 }}>
+                    <Box sx={{ textAlign: 'center' }}>
                       <Typography variant="body1" fontWeight={600}>{skill.name}</Typography>
-                      <Typography variant="body2" color="text.secondary">{skill.level}%</Typography>
+                      <Typography variant="caption" color="text.secondary" display="block" sx={{ mt: 0.5 }}>
+                        {skill.category}
+                      </Typography>
                     </Box>
-                    <LinearProgress 
-                      variant="determinate" 
-                      value={skill.level} 
-                      sx={{ 
-                        height: 6, 
-                        borderRadius: 3,
-                        bgcolor: alpha(theme.palette.primary.main, 0.1),
-                        '& .MuiLinearProgress-bar': { borderRadius: 3 }
-                      }} 
-                    />
                   </Paper>
                 </motion.div>
               </Grid>

@@ -29,7 +29,9 @@ export const SKILLS: Skill[] = [
   { name: "Quarkus", category: "Backend", level: 85 },
   { name: "NoSQL", category: "Backend", level: 80 },
   { name: "Hibernate ORM", category: "Backend", level: 90 },
-  { name: "Blaze", category: "Tools", level: 75 }
+  { name: "Blaze", category: "Tools", level: 75 },
+  { name: "Spring Boot", category: "Backend", level: 90 },
+  { name: "Git", category: "Tools", level: 85 }
 ];
 
 export const EXPERIENCE: Experience[] = [
