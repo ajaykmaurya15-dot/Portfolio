@@ -1,39 +1,40 @@
 {
    "homepage": "https://ajaykmaurya15-dot.github.io/Portfolio",
-  "name": "ajay-portfolio",
-  "private": true,
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint . --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
-  "dependencies": {
-    "@emotion/react": "^11.11.4",
-    "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.15.12",
-    "framer-motion": "^11.0.8",
-    "lucide-react": "^0.344.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "@types/react": "^19.2.14",
-    "@types/react-dom": "^19.2.3",
-    "@typescript-eslint/eslint-plugin": "^8.56.1",
-    "@typescript-eslint/parser": "^8.56.1",
-    "@vitejs/plugin-react": "^5.1.4",
-    "eslint": "^9.39.3",
-    "eslint-plugin-react-hooks": "^7.0.1",
-    "eslint-plugin-react-refresh": "^0.5.2",
-    "globals": "^17.4.0",
-    "typescript": "^5.9.3",
-    "typescript-eslint": "^8.58.0",
-    "vite": "^7.3.1"
-  }
+   "name": "ajay-portfolio",
+   "private": true,
+   "version": "1.0.0",
+   "type": "module",
+   "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "lint": "eslint . --report-unused-disable-directives --max-warnings 0",
+      "preview": "vite preview",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d dist"
+   },
+   "dependencies": {
+      "@emotion/react": "^11.11.4",
+      "@emotion/styled": "^11.11.0",
+      "@mui/material": "^5.15.12",
+      "framer-motion": "^11.0.8",
+      "lucide-react": "^0.344.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+   },
+   "devDependencies": {
+      "@eslint/js": "^10.0.1",
+      "@types/react": "^19.2.14",
+      "@types/react-dom": "^19.2.3",
+      "@typescript-eslint/eslint-plugin": "^8.56.1",
+      "@typescript-eslint/parser": "^8.56.1",
+      "@vitejs/plugin-react": "^5.1.4",
+      "eslint": "^9.39.3",
+      "eslint-plugin-react-hooks": "^7.0.1",
+      "eslint-plugin-react-refresh": "^0.5.2",
+      "gh-pages": "^6.3.0",
+      "globals": "^17.4.0",
+      "typescript": "^5.9.3",
+      "typescript-eslint": "^8.58.0",
+      "vite": "^6.2.0"
+   }
 }
