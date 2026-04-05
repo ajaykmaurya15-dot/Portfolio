@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ajaykumar Kailash Maurya - Senior Software Engineer Portfolio
 
 A highly interactive, professional, and uniquely architected personal portfolio built to showcase deep technical expertise in Java, Backend Architecture, and Industrial SCADA Solutions. 
@@ -81,3 +82,6 @@ Because this project utilizes a zero-build-step architecture with `importmap`s, 
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+=======
+
+>>>>>>> bbcfa36fa61b1ae1b7f87730eda12b26bf9725a2
